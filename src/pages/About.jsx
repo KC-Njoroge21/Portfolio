@@ -41,7 +41,7 @@ const About = () => {
               </h1>
             </div>
           </div>
-          <div >
+          <div className="mb-6">
             <p className="lg:text-[20px]">
               I am a Bachelor of Science in Computer Science graduate with a
               strong foundation in software development, problem-solving, and
