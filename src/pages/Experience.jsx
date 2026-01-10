@@ -1,9 +1,9 @@
 import React from "react";
 import { RiVerifiedBadgeFill } from "react-icons/ri";
 
-const Experience = () => {
+const Experience = (props) => {
   return (
-    <section className="lg:h-screen h-fit">
+    <section ref={props.ref} className="lg:h-screen h-fit">
       <div className="flex flex-col h-full justify-center gap-20 ">
         <div className="flex items-center flex-col ">
         <h1 className="text-lg">Explore My</h1>

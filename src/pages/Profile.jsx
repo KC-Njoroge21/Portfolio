@@ -3,9 +3,9 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Profile = () => {
   return (
-    <section className="flex justify-center items-center h-full">
+    <section className="flex justify-center items-center lg:h-[80%] h-fit ">
       <div className="flex flex-col lg:flex-row gap-8 lg:gap-32 items-center justify-center mt-16 lg:mt-32 mb-16 lg:mb-32 ">
-        <div className="lg:w-120 lg:h-120 w-70 h-70 rounded-full shadow-amber-500 shadow-sm overflow-hidden border-4 border-gray-300">
+        <div className="lg:w-80 lg:h-80 w-30 h-30 rounded-full shadow-amber-500 shadow-sm overflow-hidden border-4 border-gray-300">
           <img
             className="w-full h-full rounded-full object-cover object-top"
             src="images/linkedin-prof.jpg"
@@ -14,10 +14,10 @@ const Profile = () => {
         </div>
         <div className="flex flex-col items-center gap-4">
           <h1 className="text-lg font-semibold text-gray-600 ">Hello, I'm</h1>
-          <h1 className="lg:text-5xl text-4xl font-bold tracking-wider">
+          <h1 className="lg:text-5xl text-3xl font-bold">
             Kevin Njoroge
           </h1>
-          <h1 className="text-3xl text-gray-600 font-semibold">
+          <h1 className="lg:text-3xl text-xl text-gray-600 font-semibold">
             Frontend Developer
           </h1>
           <div className="flex gap-6">
