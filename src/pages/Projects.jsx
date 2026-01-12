@@ -2,7 +2,7 @@ import React from "react";
 
 const Projects = (props) => {
   return (
-    <section ref={props.ref} className="lg:h-screen h-full">
+    <section ref={props.ref} className=" ">
       <div className="flex flex-col items-center gap-2">
         <h1 className="text-lg">Browse My Recent</h1>
         <h1 className="text-5xl font-bold">Projects</h1>
@@ -10,8 +10,8 @@ const Projects = (props) => {
 
       <div className=" w-full flex flex-wrap justify-center gap-8 h-full p-8">
 
-        <div className="border border-gray-300 rounded-3xl min-w-[40%] h-full p-8 flex flex-col gap-4 bg-gray-100">
-          <div className="overflow-hidden w-full h-[80%] rounded-3xl">
+        <div className="border border-gray-300 rounded-3xl h-130 p-8 flex flex-col  min-w-[40%] gap-4 bg-gray-100">
+          <div className="overflow-hidden  h-[80%] rounded-3xl">
             <img className="w-full h-full object-cover" src="/images/todo-list.jpg" alt="" />
           </div>
           <div className="flex flex-col gap-4">
@@ -23,7 +23,7 @@ const Projects = (props) => {
           </div>
         </div>
 
-        <div className="border border-gray-300 rounded-3xl min-w-[40%]  h-full p-8 flex flex-col gap-4 bg-gray-100">
+        <div className="border border-gray-300 rounded-3xl min-w-[40%] h-130 p-8 flex flex-col gap-4 bg-gray-100">
           <div className="overflow-hidden w-full h-[80%] rounded-3xl">
             <img className="w-full h-full object-cover" src="/images/weather.jpg" alt="" />
           </div>

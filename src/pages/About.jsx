@@ -4,7 +4,7 @@ import { MdSchool } from "react-icons/md";
 
 const About = (props) => {
   return (
-    <section ref={props.ref} className="lg:h-screen  flex flex-col gap-2 items-center justify-center ">
+    <section ref={props.ref} id="about" className="lg:h-screen  flex flex-col gap-2 items-center justify-center ">
       <div className="flex flex-col items-center">
         <h1 className="text-lg text-gray-600 ">Get To Know More</h1>
 
