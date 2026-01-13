@@ -22,7 +22,7 @@ const App = () => {
     <div className="h-screen overflow-y-scroll scroll-smooth">
       <div className="lg:h-screen h-fit">
         <Header scrollIntoSection={scrollToSection} refs={{homeRef, aboutRef, experienceRef, projectsRef, contactRef}} />
-        <Profile ref={homeRef} />
+        <Profile ref={homeRef} contactRef={contactRef} scrollIntoSection={scrollToSection} />
       </div>
       <About ref={aboutRef}/>
       <Experience ref={experienceRef} />

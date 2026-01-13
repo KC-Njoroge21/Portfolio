@@ -1,7 +1,8 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaWhatsappSquare } from "react-icons/fa";
 
-const Profile = () => {
+const Profile = (props) => {
   return (
     <section className="flex justify-center items-center lg:h-[80%] h-fit ">
       <div className="flex flex-col lg:flex-row gap-8 lg:gap-32 items-center justify-center mt-16 lg:mt-32 mb-16 lg:mb-32 ">
@@ -24,13 +25,16 @@ const Profile = () => {
             <button className="p-2 bg-gray-100 text-black rounded-md text-[18px] font-semibold cursor-pointer border-gray-300 border">
               Download CV
             </button>
-            <button className="p-2 bg-black text-white rounded-md text-[18px] font-semibold cursor-pointer">
+            <button onClick={() => {
+              props.scrollIntoSection(props.contactRef)
+            }} className="p-2 bg-black text-white rounded-md text-[18px] font-semibold cursor-pointer">
               Contact Info
             </button>
           </div>
           <div className="flex gap-6">
-            <FaLinkedin size={40} />
-            <FaGithub size={40} />
+            <a href="https://www.linkedin.com/in/kevin-njoroge14/"><FaLinkedin size={40} /></a>
+            <a href="https://github.com/KC-Njoroge21"><FaGithub size={40} /></a>
+            <a href="https://wa.me/254796275516"><FaWhatsappSquare size={40} /></a>
           </div>
         </div>
       </div>

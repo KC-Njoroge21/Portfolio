@@ -18,7 +18,7 @@ const Projects = (props) => {
             <h1 className="text-3xl font-semibold text-center">Todo List App</h1>
             <div className="flex justify-center gap-6">
               <button className="p-3 border-2 rounded-xl text-lg font-semibold border-gray-400 hover:bg-black hover:text-white duration-300 hover:border-black cursor-pointer ">Githhub</button>
-              <button className="p-3 border-2 rounded-xl text-lg font-semibold border-gray-400 hover:bg-black hover:text-white duration-300 hover:border-black cursor-pointer ">Live Demo</button>
+               <a className="p-3 border-2 rounded-xl text-lg font-semibold border-gray-400 hover:bg-black hover:text-white duration-300 hover:border-black cursor-pointer" target="blank" href="https://kevtosdolist.netlify.app/">Live Demo</a>
             </div>
           </div>
         </div>
@@ -31,7 +31,7 @@ const Projects = (props) => {
             <h1 className="text-3xl font-semibold text-center">Weather App</h1>
             <div className="flex justify-center gap-6">
               <button className="p-3 border-2 rounded-xl text-lg font-semibold border-gray-400 hover:bg-black hover:text-white duration-300 hover:border-black cursor-pointer">Githhub</button>
-              <button className="p-3 border-2 rounded-xl text-lg font-semibold border-gray-400 hover:bg-black hover:text-white duration-300 hover:border-black cursor-pointer">Live Demo</button>
+              <a className="p-3 border-2 rounded-xl text-lg font-semibold border-gray-400 hover:bg-black hover:text-white duration-300 hover:border-black cursor-pointer" target="blank" href="https://kevweather.netlify.app/">Live Demo</a>
             </div>
           </div>
         </div>
@@ -44,7 +44,7 @@ const Projects = (props) => {
             <h1 className="text-3xl font-semibold text-center">Food Recipe App</h1>
             <div className="flex justify-center gap-6">
               <button className="p-3 border-2 rounded-xl text-lg font-semibold border-gray-400 hover:bg-black hover:text-white duration-300 hover:border-black cursor-pointer">Githhub</button>
-              <button className="p-3 border-2 rounded-xl text-lg font-semibold border-gray-400 hover:bg-black hover:text-white duration-300 hover:border-black cursor-pointer">Live Demo</button>
+              <a className="p-3 border-2 rounded-xl text-lg font-semibold border-gray-400 hover:bg-black hover:text-white duration-300 hover:border-black cursor-pointer" target="blank" href="https://kevinfoodrecipe.netlify.app/">Live Demo</a>
             </div>
           </div>
         </div>
