@@ -15,7 +15,7 @@ const Contact = (props) => {
           <a
             className="text-lg"
             target="blank"
-            href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=jrjtXLDRsVLFrRPshCWfZWmHsMmzxDxQTSgZdTzTbrxGGGtBmlrjGTFbFJWgpjvvpcvSHXnH"
+            href=""
           >
             kevinnjorogesic@gmail.com
           </a>
